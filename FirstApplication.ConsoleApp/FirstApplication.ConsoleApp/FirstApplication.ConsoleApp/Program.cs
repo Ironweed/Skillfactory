@@ -21,6 +21,24 @@ namespace FirstApplication.ConsoleApp
 
         static void Main(string[] args)
         {
+
+            string CompName = "Computer";
+            Console.WriteLine("Привет, человек");
+            Console.WriteLine("Меня зовут {0}", CompName);
+            Console.Write("А как тебя зовут? ");
+            string YourName = Console.ReadLine();
+            Console.Write("Рад встрече, {0} ", YourName);
+
+
+            string MyName = "Евгения";
+            Console.WriteLine("Привет, Мир");
+            Console.WriteLine();
+            Console.WriteLine($"Меня зовут {MyName}");
+
+            Console.ReadKey();
+
+            Console.WriteLine( "\t\t Привет,\n мир!");
+
             DaysOfWeek MyFavoriteDay;
             MyFavoriteDay = DaysOfWeek.Friday;
 
@@ -70,10 +88,10 @@ namespace FirstApplication.ConsoleApp
 
         static void Greet(string _name, byte _age, bool _pet, double _size)
         {
-            Console.WriteLine("Моё имя " + _name);
-            Console.WriteLine("Мне  " + _age + " лет");
-            Console.WriteLine("У меня  " + (_pet? "есть" : "нет") + (_pet ? " питомец":" питомеца"));
-            Console.WriteLine("My shoe size is " + _size);
+            Console.WriteLine($"Моё имя {_name}");
+            Console.WriteLine($"Мне  {_age} лет");
+            Console.WriteLine($"У меня  " + (_pet? "есть" : "нет") + (_pet ? " питомец":" питомеца"));
+            Console.WriteLine($"My shoe size is {_size}");
 
             //Console.WriteLine("Здравствуйте, {0}", _name);
             //Console.WriteLine("Мне сообщили, что Вам {0}", _age);
