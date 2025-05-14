@@ -22,6 +22,16 @@ namespace FirstApplication.ConsoleApp
         static void Main(string[] args)
         {
 
+            int counter = 10;
+            Console.WriteLine("Value : {0} Increment: {1}", counter, counter++);
+
+            double division = 5.0 / 2.0;
+            Console.WriteLine("5.0 / 2.0 = {0}", division);
+
+            division = 10.0 / 4.0;
+            Console.WriteLine("5.0 % 2.0 = {0}", division);
+
+
             string CompName = "Computer";
             Console.WriteLine("Привет, человек");
             Console.WriteLine("Меня зовут {0}", CompName);
