@@ -4,8 +4,28 @@ namespace FirstApplication.ConsoleApp
 {
     class Program
     {
+        enum DaysOfWeek : byte
+        {
+            Tuesday,
+            Monday = 1,
+            Wednesday,
+            Friday
+        }
+
+        enum Semaphore
+        {
+            Red = 100, 
+            Yellow = 200, 
+            Green = 300
+        }
+
         static void Main(string[] args)
         {
+            DaysOfWeek MyFavoriteDay;
+            MyFavoriteDay = DaysOfWeek.Friday;
+
+            Console.WriteLine(MyFavoriteDay);
+
             //Console.WriteLine("IntMin {0} ", int.MinValue);
             //Console.WriteLine("IntMax {0} ", int.MaxValue);
 
@@ -59,5 +79,8 @@ namespace FirstApplication.ConsoleApp
             //Console.WriteLine("Мне сообщили, что Вам {0}", _age);
         }
 
+
     }
+
+
 }
