@@ -21,12 +21,28 @@ namespace FirstApplication.ConsoleApp
 
         static void Main(string[] args)
         {
+            double result1 = 10 % 3;
+            Console.WriteLine("double result1 = 10 % 3; Result {0} ", result1);
+
+
+            int k = -10;
+            int b = 10;
+            b -= k;
+
+            double d1 = 5 / 2 * 3;
+            Console.WriteLine("d1 = 5 / 2 * 3; Result {0} ", d1);
+            d1 = 5.0 / 2.0 * 3.0;
+            Console.WriteLine("d1 = 5.0 / 2.0 * 3.0; Result {0} ", d1);
+
+
 
             int counter = 10;
             Console.WriteLine("Value : {0} Increment: {1}", counter, counter++);
 
             double division = 5.0 / 2.0;
             Console.WriteLine("5.0 / 2.0 = {0}", division);
+            division = 5 / 2;
+            Console.WriteLine("5 / 2 = {0}", division);
 
             division = 10.0 / 4.0;
             Console.WriteLine("5.0 % 2.0 = {0}", division);
