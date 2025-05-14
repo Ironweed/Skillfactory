@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj": {}
+    "D:\\Projects\\Skillfactory\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj": {
+    "D:\\Projects\\Skillfactory\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\Projects\\Skillfactory\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj",
         "projectName": "FirstApplication.ConsoleApp",
-        "projectPath": "D:\\Projects\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj",
+        "projectPath": "D:\\Projects\\Skillfactory\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\s.chuprakov\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\obj\\",
+        "outputPath": "D:\\Projects\\Skillfactory\\Skillfactory\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\FirstApplication.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s.chuprakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\s.chuprakov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
