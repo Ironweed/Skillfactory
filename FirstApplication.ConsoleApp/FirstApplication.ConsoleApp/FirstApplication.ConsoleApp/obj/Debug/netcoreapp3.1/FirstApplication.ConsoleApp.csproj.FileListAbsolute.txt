@@ -23,3 +23,4 @@ D:\Projects\Skillfactory\Skillfactory\FirstApplication.ConsoleApp\FirstApplicati
 D:\Projects\Skillfactory\Skillfactory\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\obj\Debug\netcoreapp3.1\FirstApplication.ConsoleApp.dll
 D:\Projects\Skillfactory\Skillfactory\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\obj\Debug\netcoreapp3.1\FirstApplication.ConsoleApp.pdb
 D:\Projects\Skillfactory\Skillfactory\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\obj\Debug\netcoreapp3.1\FirstApplication.ConsoleApp.genruntimeconfig.cache
+D:\Projects\Skillfactory\Skillfactory\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\FirstApplication.ConsoleApp\obj\Debug\netcoreapp3.1\FirstApplication.ConsoleApp.csproj.AssemblyReference.cache
