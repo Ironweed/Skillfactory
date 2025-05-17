@@ -21,6 +21,29 @@ namespace FirstApplication.ConsoleApp
 
         static void Main(string[] args)
         {
+            //преобразование типов
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            byte age = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("Какой ваш любимый день недели?");
+            DaysOfWeek MyFavoriteDay = (DaysOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("Ваш любимы день недели {0}", MyFavoriteDay.ToString());
+
+            Console.ReadKey();
+
+
+            Console.Write("Enter your name: ");
+            /*string */name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            /*byte */age = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.ReadKey();
+
+
+
             double result1 = 10 % 3;
             Console.WriteLine("double result1 = 10 % 3; Result {0} ", result1);
 
@@ -65,7 +88,7 @@ namespace FirstApplication.ConsoleApp
 
             Console.WriteLine( "\t\t Привет,\n мир!");
 
-            DaysOfWeek MyFavoriteDay;
+            /*DaysOfWeek MyFavoriteDay;*/
             MyFavoriteDay = DaysOfWeek.Friday;
 
             Console.WriteLine(MyFavoriteDay);
@@ -74,9 +97,8 @@ namespace FirstApplication.ConsoleApp
             //Console.WriteLine("IntMax {0} ", int.MaxValue);
 
             Console.WriteLine("Как Вас зовут?");
-            string name = Console.ReadLine();
+            name = Console.ReadLine();
 
-            byte age;
             int number;
             Console.WriteLine("Сколько Вам лет?");
             string input = Console.ReadLine();
